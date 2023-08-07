@@ -8,14 +8,22 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
     description: `Alexander Achmad Khan's personal website`,
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
-      "path": "./src/assets/images/"
+      "path": "./src/images/"
     },
     __key: "images"
-  }, 
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "works",
+      "path": `${__dirname}/content/blog`,
+    },
+  },
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -44,7 +52,7 @@ module.exports = {
       background_color: `#4ade80`,
       theme_color: `#4ade80`,
       display: `standalone`,
-      icon: `src/assets/images/icon.png`,
+      icon: `src/images/icon.png`,
     },
   },
   {

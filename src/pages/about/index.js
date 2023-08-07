@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 
-export default function About({ data }) {
+export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;

@@ -2,7 +2,7 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import Spline from "@splinetool/react-spline"
 import { useLottie } from "lottie-react"
-import animationData from "../assets/images/404.json"
+import animationData from "../images/404.json"
 
 export default function NotFound() {
   const options = {
