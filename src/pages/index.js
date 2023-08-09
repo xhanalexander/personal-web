@@ -3,20 +3,14 @@ import Layout from "../components/layout"
 import { gifImages } from "../data/datagif"
 import Seo from "../components/seo";
 
-export default function index({ data }) {
+export default function index() {
   const sortedGifImages = gifImages.sort((a, b) => b.id - a.id);
 
   return (
     <Layout>
       <Seo
-        description="This is the home page"
-        lang="en"
-        meta={[
-          {
-            name: "robots",
-            content: "noindex, nofollow",
-          },
-        ]}
+        title="Home"
+        description="Alexander Khan as Mobile/Web Software Engineer and a Motion Graphic Artist based in Jakarta, Indonesia."
       />
       <main className="grid grid-cols-4 gap-6">
         {sortedGifImages.map((data) => (

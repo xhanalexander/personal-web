@@ -1,8 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Spline from "@splinetool/react-spline"
 import { useLottie } from "lottie-react"
 import animationData from "../images/404.json"
+import Seo from "../components/seo"
 
 export default function NotFound() {
   const options = {
@@ -13,8 +13,8 @@ export default function NotFound() {
   const { View } = useLottie(options)
   return (
     <Layout>
+      <Seo title="404 Page Not Found" />
       <main className="hidden md:flex min-h-max">
-        {/* <Spline className="hidden md:flex" scene="https://prod.spline.design/ECguRpRIEub0F7-w/scene.splinecode" /> */}
       </main>
       <main className="flex flex-col items-center justify-center min-h-max">
         { View }
@@ -23,5 +23,3 @@ export default function NotFound() {
     </Layout>
   )
 }
-
-export const Head = () =>  <title>404 Page Not Found</title>

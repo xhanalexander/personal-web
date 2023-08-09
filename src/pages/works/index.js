@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { Link, graphql } from 'gatsby'
-import Layout from '../../components/layout'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import Layout from '../../components/layout'
 import Seo from '../../components/seo';
 
 export default function index({ data }) {
@@ -9,16 +9,9 @@ export default function index({ data }) {
 
   return (
     <Layout>
-      <Seo
-        title="Works"
-        description="All of my works and projects."
-        lang="en"
-        meta={[
-          {
-            name: "robots",
-            content: "noindex, nofollow",
-          },
-        ]}
+      <Seo 
+        title='Works' 
+        description='This is my works page, where I showcase my works as a Software Engineer and a Motion Graphic Artist.'
       />
       <main className='text-white'>
         {
@@ -32,7 +25,7 @@ export default function index({ data }) {
                     className='rounded-xl transform transition duration-200 hover:-translate-y-2 hover:-translate-x-2'
                   />
                 </figure>
-                <h3 className='text-3xl'>{work.frontmatter.title} - {work.frontmatter.date}</h3>
+                <h1 className='text-3xl'>{work.frontmatter.title} - {work.frontmatter.date}</h1>
                 <p className='text-gray-400 text-lg leading-normal'>{work.frontmatter.description}</p>
               </Link>
             </article>

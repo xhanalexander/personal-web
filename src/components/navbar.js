@@ -45,9 +45,9 @@ export default function Navbar() {
               className="mobile-nav"
             >
               <div className="flex flex-col justify-center items-center h-full">
-                <Link to="/" className='nav-link' activeClassName='active'>home</Link>
-                <Link to="/works" className='nav-link' activeClassName='active'>works</Link>
-                <Link to="/about" className='nav-link' activeClassName='active'>about</Link>
+                <Link to="/" className='nav-link' activeClassName='active' title='home'>home</Link>
+                <Link to="/works" className='nav-link' activeClassName='active' title='works'>works</Link>
+                <Link to="/about" className='nav-link' activeClassName='active' title='about'>about</Link>
               </div>
             </motion.section>
           )

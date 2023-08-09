@@ -5,10 +5,16 @@ module.exports = {
   siteMetadata: {
     title: `xhanalexander`,
     name: `Alexander Achmad Khan`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://xhanalexander.vercel.app/`,
     description: `Alexander Achmad Khan's personal website`,
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  plugins: [
+    "gatsby-plugin-postcss", 
+    "gatsby-plugin-image", 
+    "gatsby-plugin-sharp", 
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -69,7 +75,12 @@ module.exports = {
     },
   },
   {
-    resolve: `gatsby-plugin-react-helmet`,
+    resolve: "gatsby-plugin-robots-txt",
+    options: {
+      host: "https://xhanalexander.vercel.app/",
+      sitemap: "https://xhanalexander.vercel.app/sitemap.xml",
+      policy: [{ userAgent: "*", allow: "/" }],
+    },
   },
 ]
 };
