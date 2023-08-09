@@ -9,8 +9,7 @@ export default function index() {
   return (
     <Layout>
       <Seo
-        title="Home"
-        description="Alexander Khan as Mobile/Web Software Engineer and a Motion Graphic Artist based in Jakarta, Indonesia."
+        description="Freelance Motion Graphics and Mobile/Web Development based in Jakarta – xhanalexander"
       />
       <main className="grid grid-cols-4 gap-6">
         {sortedGifImages.map((data) => (

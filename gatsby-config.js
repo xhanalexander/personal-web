@@ -14,7 +14,6 @@ module.exports = {
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -81,6 +80,28 @@ module.exports = {
       sitemap: "https://xhanalexander.vercel.app/sitemap.xml",
       policy: [{ userAgent: "*", allow: "/" }],
     },
+  },
+  {
+    resolve: "gatsby-plugin-sitemap",
+    options: {
+      output: "/sitemap.xml",
+      query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+      }`,
+      resolveSiteUrl: ({site}) => {
+        return site.siteMetadata.siteUrl;
+      }
+    }
   },
 ]
 };
