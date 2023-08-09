@@ -2,14 +2,26 @@ import React from "react";
 import Layout from "../../components/Layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
+import Seo from "../../components/seo";
 
 export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;
-
+  const link = "https://drive.google.com/file/d/18y7tSsb2b4aIqEKgC_xJd3BXv6SzpCux/view?usp=sharing"
   return (
     <Layout>
+      <Seo
+        title="About"
+        description="This is the about page"
+        lang="en"
+        meta={[
+          {
+            name: "robots",
+            content: "noindex, nofollow",
+          },
+        ]}
+      />
       <main className="flex flex-col text-white justify-center">
         <section className="flex flex-1 justify-center">
           <article>
@@ -32,6 +44,7 @@ export default function index({ data }) {
               thriving on the dynamic fusion of Mobile and Web Development, utilizing my expertise in Flutter and React.
               Curiousity and passion for learning new things are my main drive to keep on improving myself.
               Currently this period I spend my time reading books and still pursuing my degree in Computer Science.
+              <span className="text-green-400 font-bold" title="My Resume"><a href={link}>&nbsp;CV</a></span>
             </p>
           </article>
         </section>
@@ -56,5 +69,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-// export const Head = () => <title>About</title>;

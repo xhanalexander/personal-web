@@ -14,10 +14,11 @@ export default function NotFound() {
   return (
     <Layout>
       <main className="hidden md:flex min-h-max">
-        <Spline className="hidden md:flex" scene="https://prod.spline.design/ECguRpRIEub0F7-w/scene.splinecode" />
+        {/* <Spline className="hidden md:flex" scene="https://prod.spline.design/ECguRpRIEub0F7-w/scene.splinecode" /> */}
       </main>
-      <main className="flex flex-col items-center justify-center md:hidden min-h-max">
+      <main className="flex flex-col items-center justify-center min-h-max">
         { View }
+        <h1 className="text-4xl font-bold text-center">404 Page Not Found</h1>
       </main>
     </Layout>
   )

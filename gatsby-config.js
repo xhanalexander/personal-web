@@ -8,7 +8,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
     description: `Alexander Achmad Khan's personal website`,
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -33,6 +33,19 @@ module.exports = {
     __key: "pages"
   },
   {
+    resolve: 'gatsby-transformer-remark',
+    options: {
+      plugins: [
+        {
+          resolve: 'gatsby-remark-images',
+          options: {
+            maxWidth: 1200,
+          },
+        },
+      ],
+    },
+  },
+  {
     resolve: 'gatsby-plugin-google-gtag',
     options: {
       trackingIds: [
@@ -49,9 +62,9 @@ module.exports = {
       name: `xhanalexander`,
       short_name: `xhanalexander`,
       start_url: `/`,
-      background_color: `#4ade80`,
-      theme_color: `#4ade80`,
-      display: `standalone`,
+      background_color: `#121212`,
+      theme_color: `#34d399`,
+      display: `minimal-ui`,
       icon: `src/images/icon.png`,
     },
   },
