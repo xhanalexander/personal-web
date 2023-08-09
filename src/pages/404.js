@@ -1,5 +1,5 @@
 import * as React from "react"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Spline from "@splinetool/react-spline"
 import { useLottie } from "lottie-react"
 import animationData from "../images/404.json"
