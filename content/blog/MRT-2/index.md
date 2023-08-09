@@ -6,23 +6,16 @@ description: "My last year work, the layouting banner for Pencanangan Pembanguna
 thumbnail: ../../../src/images/thumbnail/MRT_2.jpg
 ---
 
-![](./MRT_Anies.png)
-<br>
+![](./MRT_Anies.png)<br>
 
 # Events
-Acara tersebut dilaksanakan pada hari Selasa Siang dengan dihadiri Gubernur DKI Jakarta, Direktur MRT, dan Direktur Intiland. Di dalam acara tersebut bapak Anies Baswedan berpidato dan dilanjuti penyampaian dari bapak Hans Hutoyo.
+Acara tersebut dilaksanakan pada hari Selasa Siang dengan dihadiri Gubernur DKI Jakarta, Direktur MRT, dan Direktur Intiland. Di dalam acara tersebut bapak Anies Baswedan berpidato dan dilanjuti penyampaian dari bapak Hans Hutoyo.<br><br>
 
-<br>
+![](./MRT_Hans.png)<br>
 
-![](./MRT_Hans.png)
-<br>
-
-![](./MRT_All.png)
-<br>
+![](./MRT_All.png)<br>
 
 # Video
-Untuk melihat acara sepenuhnya dapat bisa dilihat diklik video dibawah sini.
-
-<br>
+Untuk melihat acara sepenuhnya dapat bisa dilihat diklik video dibawah sini.<br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lkt981pv4mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
