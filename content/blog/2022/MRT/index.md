@@ -3,7 +3,7 @@ title: Layout Untuk Peluncuran dan Penamaan Tunnel Boring Machine MRT fase 2A
 slug: Peresmian-dan-penamaan-tunnel-boring-machine-MRT-fase-2A
 date: "2022-02-24T13:31:03.284Z"
 description: "My last work on january during end semester, layouting the banner for MRT opening ceremony Tunnel Boring machine, represented by the Indonesian presiden Jokowi and Jakarta Governer Anies."
-thumbnail: ../../../src/images/thumbnail/MRT_1.jpg
+thumbnail: ../../../../src/images/thumbnail/MRT_1.jpg
 ---
 
 ![Penamaan dam Peluncuran Boring Tunnel](./MRT3.png)<br>

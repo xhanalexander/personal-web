@@ -3,7 +3,7 @@ title: Layouting Bank Syariah Indonesia (BSI) Content Virtual Charity Concert
 slug: BANK-Syariah-Indonesia-Virtual-Charity-Concert
 date: "2022-02-19T06:00:00.121Z"
 description: "Bank Syariah Indonesia (BSI) Holds Virtual Charity Concert Conducted by Addie MS for the First Anniversary, Collaborating with Twilite Orchestra and special appearances from well-known Indonesian Musician guest stars"
-thumbnail: ../../../src/images/thumbnail/BankSyariah.jpg
+thumbnail: ../../../../src/images/thumbnail/BankSyariah.jpg
 ---
 
 ![Acara Bank Syariah Indonesia](./bank_1.jpg)<br>

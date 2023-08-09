@@ -3,7 +3,7 @@ title: Layout Desain untuk "Pencanangan Pembangunan Simpang Temu Lebak Bulus" Yo
 slug: Pencanangan-Pembangunan-Simpang-Temu-Lebak-Bulus
 date: "2021-12-08T07:00:00.284Z"
 description: "My last year work, the layouting banner for Pencanangan Pembangunan Simpang Temu Lebak Bulus, represented by Jakarta Mayor, Director of MRT, and CEO of Intiland."
-thumbnail: ../../../src/images/thumbnail/MRT_2.jpg
+thumbnail: ../../../../src/images/thumbnail/MRT_2.jpg
 ---
 
 ![](./MRT_Anies.png)<br>

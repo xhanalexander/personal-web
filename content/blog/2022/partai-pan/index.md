@@ -3,7 +3,7 @@ title: Layouting Partai Amanat Nasional (PAN) RAKERNAS BLI event
 slug: PAN-Rakernas-BLI
 date: "2022-08-26T06:00:00.121Z"
 description: "Partai Amanat Nasional aka PAN held an national meeting called RAKERNAS on ISTORA SENAYAN Bima Arya Bogor Mayor as the head of the ceremonies following by Zulkifli Hasan as the leader of PAN party"
-thumbnail: ../../../src/images/thumbnail/PAN.jpg
+thumbnail: ../../../../src/images/thumbnail/PAN.jpg
 ---
 
 ![Penyampaian Pidato oleh Ketua DPP PAN Zulkifli Hasan](./PAN2.png)<br>

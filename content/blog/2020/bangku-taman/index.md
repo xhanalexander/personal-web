@@ -3,7 +3,7 @@ title: Compositing Dinamika BangkuTaman Official Music Video
 slug: BangkuTaman-Music-Video
 date: "2020-09-09T06:00:00.121Z"
 description: "An impressive project with me and my brother make Bangkutaman music video, the first time since 2016 this band has release new track called Dinamika. "
-thumbnail: ../../../src/images/thumbnail/Bangkutaman.jpg
+thumbnail: ../../../../src/images/thumbnail/Bangkutaman.jpg
 ---
 
 ![Boy Starring at the ocean with red skies](./IMG_1.png)<br>

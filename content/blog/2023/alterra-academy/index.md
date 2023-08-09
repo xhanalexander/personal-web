@@ -3,7 +3,7 @@ title: Alterra Academy Internship Mobile Development
 slug: Alterra-Project-Mobile-Development
 date: "2023-06-23T06:00:00.121Z"
 description: Experience of Mobile Development with the Alterra Academy Internship. Using the Flutter framework, design, and functionality under expert guidance. Shape passion into mobile development flutter experience in this dynamic opportunity.
-thumbnail: ../../../src/images/thumbnail/Presensee.jpg
+thumbnail: ../../../../src/images/thumbnail/Presensee.jpg
 ---
 
 ![](Capstone.jpg)<br>

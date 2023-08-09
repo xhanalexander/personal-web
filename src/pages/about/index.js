@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 import Seo from "../../components/seo";
@@ -13,14 +13,7 @@ export default function index({ data }) {
     <Layout>
       <Seo
         title="About"
-        description="This is the about page"
-        lang="en"
-        meta={[
-          {
-            name: "robots",
-            content: "noindex, nofollow",
-          },
-        ]}
+        description="Alexander Achmad Khan - I am a Software Engineer and a Motion Graphic Artist based in Jakarta"
       />
       <main className="flex flex-col text-white justify-center">
         <section className="flex flex-1 justify-center">
@@ -30,7 +23,6 @@ export default function index({ data }) {
                 image={ photo }
                 alt={ nickname }
                 title={ nickname }
-                loading="lazy"
                 className="max-w-xs transform -translate-y-2 -translate-x-2 cursor-pointer rounded-full"
               />
             </div>
