@@ -3,7 +3,7 @@ title: Tripo 3000 Virtual Reality Exhibition Development
 slug: Tripo3000-Virtual-Reality-Exhibition-Development
 date: "2023-05-06T06:00:00.121Z"
 description: A3000 Creative Compound in South Jakarta's Kemang area, once again becomes the host of the Dark Room art installation exhibition in the form of virtual reality.
-thumbnail: ../../../src/images/thumbnail/DarkRoom.jpg
+thumbnail: ../../../../src/images/thumbnail/DarkRoom.jpg
 ---
 
 ![](vr_2.jpg)<br>

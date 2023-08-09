@@ -3,7 +3,7 @@ title: Erwin Gutawa Production Motion Layout Music Indonesia Lintas Era
 slug: Erwin-Gutawa-Production-Motion-Layout
 date: "2023-03-09T06:00:00.121Z"
 description: Celebrate National Music Day with Erwin Gutawa Orchestra's captivating musical journey through Indonesia's music industry, showcasing iconic hits from the 60s to today and sharing stories behind them. Featuring renowned artists Candra Darusman, Donnie Sibarani, Lea Simanjuntak, and more.
-thumbnail: ../../../src/images/thumbnail/Erwin.jpg
+thumbnail: ../../../../src/images/thumbnail/Erwin.jpg
 ---
 
 ![](poster.jpg)<br>

@@ -3,7 +3,7 @@ title: Sevenfest Vol.14 EPITOME OF EPOCH - SMA Negeri 7 Jakarta Pentas Seni
 slug: Sevenfest-Vol-14
 date: "2018-11-24T09:00:00.169Z"
 description: One of my project to participate on highschool festival mural SMAN 7 Jakarta event some of included known graffiti artist in Jakarta.
-thumbnail: ../../../src/images/thumbnail/SevenFest.jpg
+thumbnail: ../../../../src/images/thumbnail/SevenFest.jpg
 ---
 ![](./SevenfestVolXIV.jpg)
 
