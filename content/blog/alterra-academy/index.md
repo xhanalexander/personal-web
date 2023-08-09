@@ -6,9 +6,7 @@ description: Experience of Mobile Development with the Alterra Academy Internshi
 thumbnail: ../../../src/images/thumbnail/Presensee.jpg
 ---
 
-![](Capstone.jpg)
-
-<br>
+![](Capstone.jpg)<br>
 
 # Summaries
 

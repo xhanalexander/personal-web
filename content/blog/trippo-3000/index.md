@@ -17,5 +17,4 @@ Konsepnya berkisar pada bentuk seni multidimensi, mulai dari visual art mapping 
 Pengunjung yang menghadiri acara tersebut akan memiliki kesempatan untuk membenamkan diri dalam pengalaman yang tak terlupakan dengan menjelajahi berbagai dunia maya menggunakan teknologi VR dan berinteraksi dengan karya seni interaktif lainnya yang dipamerkan. Seluruh pengalaman akan dirasakan secara bersamaan, menjadikannya benar-benar unik. 
 <a href="https://www.instagram.com/p/Cr56-AiyQqT/?img_index=1" class='text-green-400'>Postingan</a><br><br>
 
-
 ![](vr.jpg)
