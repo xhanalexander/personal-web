@@ -23,5 +23,5 @@ Tahun 2023 ini menandakan bahwa sang maestro telah genap 38 tahun berkarya. Hing
 # Video
 Untuk melihat sepenuhnya dapat bisa dilihat diklik video dibawah ini.<br>
 
-<iframe class='w-full' src="https://www.youtube.com/embed/eUh7XUZehNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="overflow:hidden;width: 100%;height:100%" src="https://www.youtube.com/embed/eUh7XUZehNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

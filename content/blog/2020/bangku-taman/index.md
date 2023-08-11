@@ -16,4 +16,4 @@ Bangkutaman is a group music band from jogja, with consisting genre of Folk/Indi
 # Video
 Untuk melihat sepenuhnya dapat bisa dilihat diklik video dibawah ini.<br>
 
-<iframe src="https://www.youtube.com/embed/i0VDVqzVVEQ" class="w-full " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/i0VDVqzVVEQ" style="overflow:hidden;width: 100%;height:100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
