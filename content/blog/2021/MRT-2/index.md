@@ -18,4 +18,4 @@ Acara tersebut dilaksanakan pada hari Selasa Siang dengan dihadiri Gubernur DKI 
 # Video
 Untuk melihat acara sepenuhnya dapat bisa dilihat diklik video dibawah sini.<br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lkt981pv4mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="overflow:hidden;width: 100%;height:100%" src="https://www.youtube.com/embed/lkt981pv4mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -22,4 +22,4 @@ PAN akan menggelar rakernas pada tanggal 26 Agustus 2022. Yang salah satu agenda
 # Videos
 Untuk melihat sepenuhnya dapat bisa dilihat diklik video dibawah ini.<br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vKD1xEWORJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/vKD1xEWORJc" style="overflow:hidden;width: 100%;height:100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
