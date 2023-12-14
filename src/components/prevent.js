@@ -2,9 +2,7 @@ import { useEffect } from 'react';
 
 const usePreventDefault = () => {
   useEffect(() => {
-    const preventDefault = (event) => {
-      event.preventDefault();
-    };
+    const preventDefault = (event) => event.preventDefault();
 
     document.body.ondragstart = preventDefault;
     document.body.oncontextmenu = preventDefault;
