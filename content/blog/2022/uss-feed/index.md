@@ -1,5 +1,5 @@
 ---
-title: THE FUTURE OF US - USS FEED Virtual Reality Exhibition
+title: THE FUTURE OF US - USS FEED X A MILD Virtual Reality Exhibition
 date: "2022-07-25T06:00:00.121Z"
 slug: USS-Feed-Virtual-Reality-Development-Exhibition
 description: "JRNY Coffee & Records hold an event with USS FEED by creating a Virtual Reality Exhibition on Jogja"

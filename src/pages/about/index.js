@@ -8,7 +8,7 @@ export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;
-  const link = "https://drive.google.com/file/d/18y7tSsb2b4aIqEKgC_xJd3BXv6SzpCux/view?usp=sharing"
+  const link = "https://drive.google.com/file/d/1eY6CSHncKVAQSRkqlJCg-Y2v9pw11nPT/view?usp=sharing"
   return (
     <Layout>
       <Seo
