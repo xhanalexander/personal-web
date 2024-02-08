@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
-// import usePreventDefault from './prevent'
+import usePreventDefault from './prevent'
 import Dividers from './divider'
 
 export default function Layout({ children }) {
-  // usePreventDefault()
+  usePreventDefault()
   return (
     <article className='max-w-2xl mx-auto p-8'>
       <Navbar />
