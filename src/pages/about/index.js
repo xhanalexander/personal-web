@@ -8,12 +8,12 @@ export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;
-  const link = "https://drive.google.com/file/d/1eY6CSHncKVAQSRkqlJCg-Y2v9pw11nPT/view?usp=sharing"
+  const link = "https://drive.google.com/file/d/1P_LUnSzxVG8zFOni7iV2E1DyjtP_y7uA/view?usp=sharing"
   return (
     <Layout>
       <Seo
         title="About"
-        description="Alexander Achmad Khan - I am a Software Engineer and a Motion Graphic Artist based in Jakarta"
+        description="Alexander Achmad Khan - Software Engineer and a Motion Graphic Artist based in Jakarta"
       />
       <main className="flex flex-col text-white justify-center">
         <section className="flex flex-1 justify-center">
@@ -32,11 +32,11 @@ export default function index({ data }) {
           <article className="text-xl">
             <h1 className="text-5xl text-center">{ names }</h1>
             <p className="mt-8">
-              I am a <b>Software Engineer</b> and a <b>Motion Graphic Artist</b> based in Jakarta, 
+              Multidisciplinary in software application and mostly a <b>Software Engineer</b> and <b>Motion Graphic Artist</b> based in Jakarta, 
               thriving on the dynamic fusion of Mobile and Web Development, utilizing my expertise in Flutter and React.
               Curiousity and passion for learning new things are my main drive to keep on improving myself.
-              Currently this period I spend my time reading books and still pursuing my degree in Computer Science.
-              <span className="text-green-400 font-bold" title="My Resume"><a href={link}>&nbsp;CV</a></span>
+              Currently this period I spend my time reading books.
+              <span className="text-green-400 font-bold" title="My Resume"><a href={link}>&nbsp;Resume</a></span>
             </p>
           </article>
         </section>
