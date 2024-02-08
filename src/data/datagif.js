@@ -56,5 +56,3 @@ export const gifImages = [
     alt: "Stretch Text",
   },
 ];
-
-  // src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHkyeGFmemJ3bGVhbmFxYzJoMWJiY3N3YmVpdTQ2YmhjM2Y1em02MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ia7ptT54VfnJ8vZZz/giphy.gif"

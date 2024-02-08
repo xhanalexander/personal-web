@@ -31,8 +31,8 @@ export default function Navbar() {
   const nickNames = data.site.siteMetadata.title
 
   return (
-    <nav className='flex flex-row justify-between mb-20 mt-16 relative'>
-      <Link to="/" className='a-title md:text-2xl text-3xl' title='home'>{nickNames}</Link>
+    <nav className='flex flex-row justify-between z-50 sticky top-0 pt-6'>
+      <Link to="/" className='a-title md:text-2xl text-3xl drop-shadow' title='home'>{nickNames}</Link>
 
       <AnimatePresence>
         {
@@ -64,8 +64,8 @@ export default function Navbar() {
       </div>
 
       <header className="md:flex hidden">
-        <Link to="/works" className='a-link mr-6' activeClassName='active' title='works'>works</Link>
-        <Link to="/about" className='a-link' activeClassName='active' title='about'>about</Link>
+        <Link to="/works" className='a-link mr-6 drop-shadow' activeClassName='active' title='works'>works</Link>
+        <Link to="/about" className='a-link drop-shadow' activeClassName='active' title='about'>about</Link>
       </header>
     </nav>
   )
