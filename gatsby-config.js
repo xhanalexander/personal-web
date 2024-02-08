@@ -6,7 +6,7 @@ module.exports = {
     title: `xhanalexander`,
     name: `Alexander Achmad Khan`,
     siteUrl: `https://xhanalexander.vercel.app/`,
-    description: `Alexander Achmad Khan's personal website`,
+    description: `Alexander Achmad Khan's personal portofolio website`,
   },
   plugins: [
     "gatsby-plugin-postcss", 
@@ -77,14 +77,19 @@ module.exports = {
     resolve: "gatsby-plugin-robots-txt",
     options: {
       host: "https://xhanalexander.vercel.app/",
-      sitemap: "https://xhanalexander.vercel.app/sitemap.xml",
       policy: [{ userAgent: "*", allow: "/" }],
     },
   },
   {
     resolve: "gatsby-plugin-sitemap",
     options: {
-      output: "/sitemap.xml",
+      output: `/sitemap.xml`,
+      createLinkInHead: true,
+      excludes: [
+        `/dev-404-page`,
+        `/404`,
+        `/404.html`,
+      ],
       query: `
         {
           site {
@@ -98,9 +103,11 @@ module.exports = {
             }
           }
       }`,
-      resolveSiteUrl: ({site}) => {
-        return site.siteMetadata.siteUrl;
-      }
+      resolveSiteUrl: ({site, allSitePage }) => {
+        return allSitePage.nodes.map(node => {
+          return site.siteMetadata.siteUrl + node.path;
+        });
+      }    
     }
   },
 ]
