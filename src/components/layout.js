@@ -7,7 +7,7 @@ import Dividers from './divider'
 export default function Layout({ children }) {
   usePreventDefault()
   return (
-    <article className='max-w-2xl mx-auto p-8'>
+    <article className='max-w-2xl mx-auto md:px-0 px-8 pb-8 '>
       <Navbar />
       <Dividers />
       {children}

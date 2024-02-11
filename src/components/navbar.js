@@ -31,8 +31,8 @@ export default function Navbar() {
   const nickNames = data.site.siteMetadata.title
 
   return (
-    <nav className='flex flex-row justify-between z-50 sticky top-0 pt-6'>
-      <Link to="/" className='a-title md:text-2xl text-3xl drop-shadow' title='home'>{nickNames}</Link>
+    <nav className='flex flex-row justify-between z-50 sticky top-0 pt-16'>
+      <Link to="/" className='a-title md:text-2xl text-3xl drop-shadow-3xl' title='home'>{nickNames}</Link>
 
       <AnimatePresence>
         {
@@ -45,23 +45,23 @@ export default function Navbar() {
               className="mobile-nav"
             >
               <div className="flex flex-col justify-center items-center h-full">
-                <Link to="/" className='nav-link' activeClassName='active' title='home'>home</Link>
-                <Link to="/works" className='nav-link' activeClassName='active' title='works'>works</Link>
-                <Link to="/about" className='nav-link' activeClassName='active' title='about'>about</Link>
+                <Link to="/" className='nav-link drop-shadow-3xl' activeClassName='active' title='home'>home</Link>
+                <Link to="/works" className='nav-link drop-shadow-3xl' activeClassName='active' title='works'>works</Link>
+                <Link to="/about" className='nav-link drop-shadow-3xl' activeClassName='active' title='about'>about</Link>
               </div>
             </motion.section>
           )
         }
       </AnimatePresence>
 
-      <div className="md:hidden z-20">
+      <nav className="md:hidden z-20 drop-shadow-3xl">
         <Hamburger
           toggled={isActived}
           toggle={toggleMenu}
           size={30}
           color='#fff'
         />
-      </div>
+      </nav>
 
       <header className="md:flex hidden">
         <Link to="/works" className='a-link mr-6 drop-shadow' activeClassName='active' title='works'>works</Link>
