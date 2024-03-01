@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       dropShadow: {
-        '3xl': '0 6px 5px rgba(0, 0, 0, 0.7)',
+        '3xl': '0 6px 5px rgba(0, 0, 0, 0.3)',
       }
     },
   },

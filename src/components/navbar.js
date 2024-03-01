@@ -64,8 +64,8 @@ export default function Navbar() {
       </nav>
 
       <header className="md:flex hidden">
-        <Link to="/works" className='a-link mr-6 drop-shadow' activeClassName='active' title='works'>works</Link>
-        <Link to="/about" className='a-link drop-shadow' activeClassName='active' title='about'>about</Link>
+        <Link to="/works" className='a-link mr-6 drop-shadow-3xl' activeClassName='active' title='works'>works</Link>
+        <Link to="/about" className='a-link drop-shadow-3xl' activeClassName='active' title='about'>about</Link>
       </header>
     </nav>
   )
