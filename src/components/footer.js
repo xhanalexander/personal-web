@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faGithub, 
   faInstagram, 
-  faTwitter,
+  faXTwitter,
   faFacebook,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
@@ -17,7 +17,7 @@ const socialMediaLinks = [
   },
   {
     url: "https://twitter.com/xhanalexander",
-    icon: faTwitter,
+    icon: faXTwitter,
     title: "Twitter",
   },
   {
