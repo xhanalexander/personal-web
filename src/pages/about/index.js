@@ -13,7 +13,7 @@ export default function index({ data }) {
     <Layout>
       <Seo
         title="About"
-        description="Alexander Achmad Khan - Software Engineer and a Motion Graphic Artist based in Jakarta"
+        description="Alexander Achmad Khan - Software Engineer and a Motion Graphic based in Jakarta"
       />
       <main className="flex flex-col text-white justify-center">
         <section className="flex flex-1 justify-center">
