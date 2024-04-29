@@ -32,7 +32,7 @@ export default function index({ data }) {
           <article className="text-xl">
             <h1 className="text-5xl text-center">{ names }</h1>
             <p className="mt-8">
-              Multidisciplinary in software application and mostly a <b>Software Engineer</b> and <b>Motion Graphic Artist</b> based in Jakarta, 
+              Multidisciplinary in software application and mostly a <b>Software Engineer</b> and <b>Motion Graphic</b> based in Jakarta, 
               thriving on the dynamic fusion of Mobile and Web Development, utilizing my expertise in Flutter and React.
               Curiousity and passion for learning new things are my main drive to keep on improving myself.
               Currently this period I spend my time reading books.
@@ -47,7 +47,7 @@ export default function index({ data }) {
 
 export const pageQuery = graphql`
   query siteInfo {
-    file(relativePath: {eq: "profile_2023.png"}) {
+    file(relativePath: {eq: "profile_2024.png"}) {
       childImageSharp {
         gatsbyImageData(placeholder: DOMINANT_COLOR)
       }

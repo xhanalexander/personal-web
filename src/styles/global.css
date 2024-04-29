@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: #181a1b;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, -apple-system;
   text-rendering: optimizeLegibility;
   top: 0;
 }
