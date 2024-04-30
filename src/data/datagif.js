@@ -4,19 +4,19 @@ export const gifImages = [
   {
     id: 1,
     href: "https://xhanalexander.github.io/preview1/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/1-Ui0tSAjencunZT6utzIQ6kfwFbEl4c.webp",
+    src: "https://i.giphy.com/uC3VXdAH68r6MGF6zB.webp",
     alt: "Touch n Slide - 1",
   },
   {
     id: 2,
     href: "https://xhanalexander.github.io/preview3/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/2-8Meau9QwEEf4RXjbp8n0zRiApKpz7z.webp",
+    src: "https://i.giphy.com/lL6avFKPlFo28FMLXs.webp",
     alt: "Touch n Slide - 2",
   },
   {
     id: 3,
     href: "https://xhanalexander.github.io/preview2/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/3-v8pBtL3ZDZ1DOWYXvcbQcQ1Yrr8xnu.webp",
+    src: "https://i.giphy.com/YVDmw3CgUkWZmujcnz.webp",
     alt: "Tilt Type Text",
   },
   /* {
@@ -28,31 +28,31 @@ export const gifImages = [
   {
     id: 5,
     href: "https://xhanalexander.github.io/preview5/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/5-GTTFJVRfvp27NM58hSmlnLokLe0yfo.webp",
+    src: "https://i.giphy.com/d2SOF16uMs0VPpOkwU.webp",
     alt: "Dancing LSD Gyroscope",
   },
   {
     id: 6,
     href: "https://xhanalexander.github.io/preview6/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/6-GJTEfxr6muqVubEoLMgwzv9oXTHrVq.webp",
+    src: "https://i.giphy.com/emxdNqNmxNC5Rpu07o.webp",
     alt: "Differential Growth - 1",
   },
   {
     id: 7,
     href: "https://xhanalexander.github.io/preview7/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/7-1M4tNl9RnnzH8ipFiseDvzfVSTZrxB.webp",
+    src: "https://i.giphy.com/49S1SHiPaf7Xxc15vx.webp",
     alt: "Dancing Spinning LSD Rotate",
   },
   {
     id: 8,
     href: "https://xhanalexander.github.io/preview8/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/8-nQCsTfodXXMLbsrR4f8JFFp6y1LmyG.webp",
+    src: "https://i.giphy.com/cnxYIIphn2hsNpebAx.webp",
     alt: "Diffusion Scale",
   },
   {
     id: 9,
     href: "https://xhanalexander.github.io/preview9/",
-    src: "https://zj1oyfw7hcdtrci0.public.blob.vercel-storage.com/9-t9axkq1g4OFArc0is31tu0f2oCMOG5.webp",
+    src: "https://i.giphy.com/ts4jn2OU7B6UnSKNfZ.webp",
     alt: "Stretch Text",
   },
 ];
