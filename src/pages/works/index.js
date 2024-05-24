@@ -22,10 +22,11 @@ export default function index({ data }) {
                   <GatsbyImage
                     image={getImage(work.frontmatter.thumbnail)}
                     alt={work.frontmatter.title}
-                    className='rounded-xl transform transition duration-200 hover:-translate-y-2 hover:-translate-x-2'
+                    className='rounded-xl showcase'
                   />
                 </figure>
                 <h1 className='text-3xl'>{work.frontmatter.title} - {work.frontmatter.date}</h1>
+                <br />
                 <p className='text-gray-400 text-lg leading-normal'>{work.frontmatter.description}</p>
               </Link>
             </article>

@@ -84,6 +84,7 @@ b {
 .a-title {
   color: #fff;
   text-decoration: none;
+  text-align: justify;
 }
 
 .a-title::after {
@@ -142,6 +143,17 @@ b {
   backdrop-filter: blur(8px);
 }
 
+/* showcase */
+
+.showcase {
+  transition-duration: 200ms;
+}
+
+.showcase:hover {
+  transform: translateY(-0.5rem) translateX(-0.5rem);
+}
+
+
 /* content */
 
 .title-content {
@@ -159,4 +171,5 @@ b {
 .html-content {
   margin-top: 2rem;
   font-size: 1.2rem;
+  text-align: justify;
 }

@@ -55,4 +55,16 @@ export const gifImages = [
     src: "https://i.giphy.com/ts4jn2OU7B6UnSKNfZ.webp",
     alt: "Stretch Text",
   },
+  {
+    id: 10,
+    href: "https://xhanalexander.github.io/preview10/",
+    src: "https://i.giphy.com/O7F4E12yUWGnkshyA5.webp",
+    alt: "Bouncy Simulation",
+  },
+  {
+    id: 11,
+    href: "https://xhanalexander.github.io/preview11/",
+    src: "https://i.giphy.com/eC4arV5nasr6TJr3JI.webp",
+    alt: "Glitch Drag",
+  },
 ];

@@ -9,7 +9,7 @@ export default function index() {
   return (
     <Layout>
       <Seo
-        description="Freelance Motion Graphics and Mobile/Web Development based in Jakarta – xhanalexander"
+        description="Freelance Motion Graphics and Mobile/Web Development based in Jakarta - xhanalexander"
       />
       <main className="grid grid-cols-4 gap-6">
         {sortedGifImages.map((data) => (
@@ -22,7 +22,8 @@ export default function index() {
                 src={data.src}
                 alt={data.alt}
                 title={data.alt}
-                className="rounded-xl object-cover max-w-3xl w-full max-h-96 transform transition duration-200 hover:-translate-y-2 hover:-translate-x-2"
+                loading="lazy"
+                className="rounded-xl object-cover max-w-3xl w-full max-h-96 showcase"
               />
             </a>
           </figure>
