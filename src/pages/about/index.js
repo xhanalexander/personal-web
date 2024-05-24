@@ -8,7 +8,7 @@ export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;
-  const link = "https://drive.google.com/file/d/1JW-8gc1fH4Kp2j-QB-6mu-bVKZNfo4YR/view?usp=sharing"
+  const link = "https://drive.google.com/file/d/1v_jpPhFykWS3vSh-3PmmDz1aFvlP3ckq/view?usp=sharing"
   const link2 = "https://en.wikipedia.org/wiki/Software_engineering"
   return (
     <Layout>
