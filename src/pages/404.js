@@ -18,7 +18,7 @@ export default function NotFound() {
       </main>
       <main className="flex flex-col items-center justify-center min-h-max">
         { View }
-        <h1 className="text-4xl mt-6 font-bold text-center">Ooops 404 Page Not Found</h1>
+        <h1 className="text-4xl mt-6 font-bold text-center">Ooops Page Not Found.</h1>
       </main>
     </Layout>
   )

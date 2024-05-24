@@ -8,7 +8,7 @@ export default function index({ data }) {
   const photo = getImage(data.file.childImageSharp)
   const nickname = data.site.siteMetadata.title;
   const names = data.site.siteMetadata.name;
-  const link = "https://drive.google.com/file/d/1-88HNejp1zkh0xIv0m7DYh-HqSmQPgoi/view?usp=sharing"
+  const link = "https://drive.google.com/file/d/1JW-8gc1fH4Kp2j-QB-6mu-bVKZNfo4YR/view?usp=sharing"
   const link2 = "https://en.wikipedia.org/wiki/Software_engineering"
   return (
     <Layout>
@@ -32,7 +32,7 @@ export default function index({ data }) {
         <section className="flex flex-1 mt-8">
           <article className="text-xl">
             <h1 className="text-5xl text-center">{ names }</h1>
-            <p className="mt-8">
+            <p className="mt-8 text-justify">
               Multidisciplinary in software application and mostly a <a href={link2}><b>Software Engineer</b></a> and <b>Motion Graphic</b> based in Jakarta, 
               thriving on the dynamic fusion of Mobile and Web Development, utilizing my expertise in Flutter and React.
               Curiousity and passion for learning new things are my main drive to keep on improving myself.
