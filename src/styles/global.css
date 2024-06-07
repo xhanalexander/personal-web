@@ -37,6 +37,19 @@ b {
   color: #4ade80;
 }
 
+th {
+  color: #4ade80;
+}
+
+td {
+  color: #fff;
+}
+
+tbody {
+  width: 100%;
+  /* display: block; */
+}
+
 .a-link {
   font-size: 1.3rem;
   font-weight: 500;
@@ -160,6 +173,7 @@ b {
   margin-top: 0px;
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
+  text-align: justify;
 }
 
 .date-content {
