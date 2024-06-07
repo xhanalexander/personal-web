@@ -25,8 +25,7 @@ export default function index({ data }) {
                     className='rounded-xl showcase'
                   />
                 </figure>
-                <h1 className='text-3xl'>{work.frontmatter.title} - {work.frontmatter.date}</h1>
-                <br />
+                <h1 className='text-3xl mb-2'>{work.frontmatter.title} - {work.frontmatter.date}</h1>
                 <p className='text-gray-400 text-lg leading-normal'>{work.frontmatter.description}</p>
               </Link>
             </article>
